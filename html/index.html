@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/html/index.js"></script>
+
+</head>
+
+<body>
+<div class ="mainContainer">
+    <div class="header">
+        <h1>ToDo List</h1>
+        <div class="inputWrapper">
+            <input onkeypress="onKeyPress()" id="input" type="text">
+            <span onclick="onAddBtnClick()" class="addBtn"> Add</span >
+            <span onclick="onCleanBtnClick()" class="addBtn"> Clean</span >
+        </div>
+</div >
+    <ul id = "listRoot">
+    </ul>
+
+</div>
+
+</body>
+</html>

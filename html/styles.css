@@ -1,0 +1,44 @@
+.mainContainer{
+
+    width: 700px;
+    margin: 0 auto;
+}
+.header{
+    background-color:#88a183;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+.inputWrapper{
+    display: flex;
+}
+#input{
+    flex: 1;
+}
+
+.addBtn{
+    background-color: lightgray;
+    color: black;
+    padding: 10px 40px;
+    border: 1px solid grey;
+    cursor: pointer;
+
+}
+
+#listRoot{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    position: relative;
+    padding: 8px 30px 8px 10px;
+    background-color: #e2e0e0;
+}
+#listRoot > li:nth-child(odd){
+    background-color: #beb8b8;
+}
+.removeBtn{
+    position: absolute;
+    right: 10px;
+}
